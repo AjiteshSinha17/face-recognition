@@ -1,7 +1,7 @@
 import 'package:http/http.dart' as http;
 
 class ApiService {
-  static const String baseUrl = 'https://c4ee-202-142-78-9.ngrok-free.app ';
+  static const String baseUrl = 'https://0d8f-202-142-78-9.ngrok-free.app/';
 
   static Future<String> registerStudent(String name, String imagePath) async {
     var request = http.MultipartRequest('POST', Uri.parse('$baseUrl/register'));
