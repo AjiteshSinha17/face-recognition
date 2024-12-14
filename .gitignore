@@ -41,3 +41,69 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Flutter-related files
+**/build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock
+.dart_tool/
+
+# iOS
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Runner.xcworkspace/
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework.dSYM
+ios/Flutter/engine/
+ios/Flutter/Generated.xcconfig
+
+# Android
+android/.gradle/
+android/app/app.iml
+android/app/build/
+android/local.properties
+android/*.iml
+android/.idea/
+
+# Web
+web/.dart_tool/
+web/.idea/
+web/build/
+
+# Linux
+linux/.dart_tool/
+linux/flutter/ephemeral/
+
+# macOS
+macos/.dart_tool/
+macos/Flutter/ephemeral/
+macos/Flutter/Flutter.podspec
+macos/Flutter/engine/
+macos/Flutter/Flutter.framework
+
+# Windows
+windows/flutter/ephemeral/
+windows/.dart_tool/
+
+# Firebase
+.firebase/
+firebase-debug.log
+.firebasehostingcache/
+
+# IntelliJ/VSCode-specific files
+.idea/
+*.iml
+.vscode/
+
+# Other OS or Editor-specific files
+.DS_Store
+*.swp
+*.lock
+Thumbs.db
+
+# Coverage report
+coverage/
